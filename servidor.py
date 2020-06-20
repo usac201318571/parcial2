@@ -2,8 +2,8 @@ import socket
 import sys
 
 
-HOST = ""
-PORT = 9998
+HOST = "167.71.243.238"
+PORT = 9802
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((HOST, PORT))
